@@ -6,16 +6,13 @@
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+  content: url(https://i.imgur.com/maRYCd0.png)
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 15vh;
+  font-size: 36px;
   color: white;
 }
 
@@ -30,4 +27,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+nav {
+    background-color: chartreuse;
+    font-size: 24px;
+    padding: 8px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: navy;
+
+}
+
+nav a:hover {
+    color: hotpink;
+}
+
+main {
+    margin: 10px;
 }
