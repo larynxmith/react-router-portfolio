@@ -11,7 +11,7 @@ class Projects extends Component {
                 <div key={i}>
                     <hr />
                     <h2>{p.title}</h2>
-                    {p.image}
+                    <img src="{p.image}" />
                     <h3>{p.blurb}</h3>
                 </div>
             )
