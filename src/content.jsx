@@ -37,7 +37,7 @@ class Content extends Component {
     projects = [
         {
             title: 'My First Wall:',
-            image: 'https://en.wikipedia.org/wiki/File:Kool-Aid_Man_breaking_wall_1978.jpg',
+            image: 'https://upload.wikimedia.org/wikipedia/en/1/13/Kool-Aid_Man_breaking_wall_19',
             blurb: 'You never forget your first....'
         }, {
             title: 'My Comics Series: ',
