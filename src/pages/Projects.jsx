@@ -3,19 +3,19 @@ import React, { Component } from 'react'
 
 class Projects extends Component {
 
-     projects = this.props.projects.map((p, i) => {
-        return (
-            <div key={i}>
-                <hr />
-                <h2>{p.title}</h2>
-                {p.image}
-                <h3>{p.blurb}</h3>
-            </div>
-        )
-    })
+     
 
     render() {
-        
+        let projects = this.props.projects.map((p, i) => {
+            return (
+                <div key={i}>
+                    <hr />
+                    <h2>{p.title}</h2>
+                    {p.image}
+                    <h3>{p.blurb}</h3>
+                </div>
+            )
+        })
         return (
             <div>
                 <div>
